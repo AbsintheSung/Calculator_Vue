@@ -1,29 +1,8 @@
-# Calculator_Vue
+# 實作簡易計算機(Options-API)
 
-This template should help get you started developing with Vue 3 in Vite.
+1. 長度不能大於 0
+2. 按數字時候輸出至 output
+3. 當點擊 click 時， output 會先為 0，此時 Click 以及其他運算符 ( +-\*/ )都會不有動作，
+   直到點擊 等於 或是 reset 才會計算或重置。
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Demo : [連結](https://absinthesung.github.io/Calculator_Vue/)
